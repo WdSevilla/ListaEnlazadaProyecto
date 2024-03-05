@@ -93,6 +93,7 @@ namespace ListaEnlazadaProyecto.Clases
             else
             {
                 inicio = inicio.siguiente;
+                Console.WriteLine("Se ha eliminado el primer nodo");
             }
         }
 
@@ -115,6 +116,7 @@ namespace ListaEnlazadaProyecto.Clases
                     puntero = puntero.siguiente;
                 }
                 puntero.siguiente = null;
+                Console.WriteLine("Se ha eliminado el ultimo nodo");
             }
         }
 
