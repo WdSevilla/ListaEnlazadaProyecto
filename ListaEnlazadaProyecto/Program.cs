@@ -22,7 +22,8 @@ namespace ListaEnlazadaProyecto
                 Console.WriteLine("d. Eliminar al Frente");
                 Console.WriteLine("e. Eliminar al Final");
                 Console.WriteLine("f. Mostrar lista");
-                Console.WriteLine("g. Salir");
+                Console.WriteLine("g. Insertar en forma ascendente");
+                Console.WriteLine("h. Salir");
                 Console.Write("Seleccione una opción: ");
                 opcion = char.ToLower(Console.ReadKey().KeyChar);
                 Console.WriteLine();
@@ -56,13 +57,18 @@ namespace ListaEnlazadaProyecto
                         listanueva.Mostrar();
                         break;
                     case 'g':
+                        Console.Write("Ingrese el valor a insertar en forma ascendente: ");
+                        int valorAscendente = int.Parse(Console.ReadLine());
+                        listanueva.InsertarAscendente(valorAscendente);
+                        break;
+                    case 'h':
                         Console.WriteLine("Saliendo del programa...");
                         break;
                     default:
                         Console.WriteLine("Opción no válida.");
                         break;
                 }
-            } while (opcion != 'g');
+            } while (opcion != 'h');
         }
     }
     
