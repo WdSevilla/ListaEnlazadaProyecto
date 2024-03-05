@@ -78,9 +78,7 @@ El método se inicia con un if en cual verifica la posición solicitada para ins
 
 Ejemplo si una lista contiene los cinco valores “6 ->    98 ->   88 ->   99 ->   5 ->” y se intenta ingresar un valor en la posición 9 este nos envía el mensaje “La posición especificada excede la longitud de la lista. Insertando al final.” Y se inserta el valor al final.
 
-![A screenshot of a computer program
-
-Description automatically generated](Aspose.Words.a105bed7-0f73-4879-8301-006b2272e361.002.png)
+![](https://i.ibb.co/5Bfdnwr/Picture2.png)
 
 **Ejercicio No. 3**
 
@@ -90,13 +88,9 @@ En este ejercicio se creó el método InsertarAscendente este método se compone
 
 También se agregó una opción más al menú que por lo que se movió la opción de g para salir a h y en la opción g se colocó esta nueva funcionalidad.
 
-![A screenshot of a computer program
+![](https://i.ibb.co/4S26TXk/Picture3.png)
 
-Description automatically generated](Aspose.Words.a105bed7-0f73-4879-8301-006b2272e361.003.png)
-
-![A screenshot of a computer program
-
-Description automatically generated](Aspose.Words.a105bed7-0f73-4879-8301-006b2272e361.004.png)
+![](https://i.ibb.co/c1gq80B/Picture4.png)
 
 **Ejercicio No. 4** 
 
@@ -106,23 +100,13 @@ Se creo una pantalla donde se realizan las operaciones solicitadas agregando un 
 
 Por defecto el programa inicia con la operación de Insertar al frente.
 
-![](Aspose.Words.a105bed7-0f73-4879-8301-006b2272e361.005.png)
-
-
-
-
-
-
-
-
+![](https://i.ibb.co/MDMMt3m/Picture5.png)
 
 Cuando la operación que se selecciona es la de Insertar por posición un nuevo textbox se muestra para que le indiquemos la posición a la que se quiere realizar la inserción.
 
-![A screenshot of a computer
+![](https://i.ibb.co/LZdWCPq/Picture6.png)
 
-Description automatically generated](Aspose.Words.a105bed7-0f73-4879-8301-006b2272e361.006.png)
-
-Conclusiones
+**Conclusiones**
 
 En conclusión, las listas enlazadas son estructuras de datos que permiten la comprensión básica del funcionamiento del manejo de datos dinámicos y el realizar operaciones en tiempo de ejecución, el comprenderlas nos permite como futuros entender la importancia de estas ya que muchos algoritmos y aplicaciones requieren de su uso.
 
@@ -132,9 +116,9 @@ En cuanto a los ejercicios desarrollados estos se enfocaban en resolver problema
 
 
 
-Recomendaciones
+**Recomendaciones**
 
-Para la aplicación de consola:
+- Para la aplicación de consola:
 
 Al insertar un dato en una posición específica, asegúrate de ingresar una posición válida mayor que cero.
 
@@ -142,7 +126,7 @@ Antes de eliminar un dato, verifica que la lista no esté vacía para evitar err
 
 Cuando se muestra la lista, verifica que los datos se muestren correctamente en el orden esperado.
 
-Para la aplicación de Windows Forms:
+- Para la aplicación de Windows Forms:
 
 Al insertar un dato en una posición específica, asegúrate de ingresar una posición válida mayor que cero.
 
@@ -150,7 +134,7 @@ Antes de eliminar un elemento de la lista, asegúrate de seleccionarlo en el Lis
 
 Verifica que la lista se actualice correctamente después de realizar una operación de inserción o eliminación.
 
-En general:
+**En general:**
 
 Siempre guarda tus datos antes de realizar acciones que puedan modificarlos permanentemente.
 
