@@ -66,7 +66,7 @@ El menú deberá estar siempre disponible hasta que el usuario seleccione la opc
 
 En la clase Program.cs donde se encuentra el método Main se creó el menú el menú se creó  con la estructura do while para mantenerlo en ejecución hasta que el usuario solicite una de las opciones de ingreso de datos o presiones g para salir, mediante el char opción solicita que se ingrese una de las letras del menú se ingresa alguna no contemplada por defecto nos indica que no es una opción válida y regresa al menú para volver solicitar una de las opciones esto continua hasta que se seleccione una opción valida o la opción g que corresponde a cerrar el programa y salir, y la primera línea “Lista listanueva = new Lista();” es la encargada de crear la instancia de la clase Lista, que representa la lista enlazada.
 
-![](Aspose.Words.a105bed7-0f73-4879-8301-006b2272e361.001.png)
+![](https://i.ibb.co/4Ptp2Nq/Picture1.png)
 
 **Ejercicio No. 2**
 
