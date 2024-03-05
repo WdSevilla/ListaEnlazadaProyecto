@@ -134,7 +134,7 @@ Antes de eliminar un elemento de la lista, asegúrate de seleccionarlo en el Lis
 
 Verifica que la lista se actualice correctamente después de realizar una operación de inserción o eliminación.
 
-**En general:**
+- En general:
 
 Siempre guarda tus datos antes de realizar acciones que puedan modificarlos permanentemente.
 
@@ -142,6 +142,6 @@ Si encuentras algún comportamiento inesperado en la aplicación, intenta reinic
 
 Si tienes alguna sugerencia de mejora para la aplicación, no dudes en compartirla con el desarrollador.
 
-Bibliografía
+**Bibliografía**
 
 PED104. Guía N°3 
