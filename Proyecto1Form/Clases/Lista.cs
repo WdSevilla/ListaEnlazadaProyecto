@@ -52,7 +52,7 @@ namespace Proyecto1Form.Clases
         {
             if (posicion <= 0)
             {
-                Console.WriteLine("La posición debe ser mayor que cero.");
+                MessageBox.Show("La posición debe ser mayor que cero.");
                 return;
             }
 
